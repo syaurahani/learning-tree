@@ -1,0 +1,14 @@
+#tree-container {
+    margin-bottom: 20px;
+}
+
+.tree-category {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.delete-btn {
+    margin-left: 5px;
+    cursor: pointer;
+
+

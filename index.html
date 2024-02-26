@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Tree</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="tree-container">
+        <ul id="learning-tree">
+            <!-- Learning tree will be dynamically generated here -->
+        </ul>
+    </div>
+
+    <div id="input-container">
+        <input type="text" id="category-input" placeholder="Enter category name">
+        <button id="add-category-btn">Add Category</button>
+
+        <input type="text" id="learning-input" placeholder="Enter your learning">
+        <button id="add-learning-btn">Add Learning</button>
+
+        <select id="category-select">
+            <option value="" disabled selected>Select Category</option>
+        </select>
+        <button id="add-learning-to-category-btn">Add Learning to Category</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
